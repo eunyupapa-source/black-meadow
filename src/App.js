@@ -379,7 +379,7 @@ export default function App() {
                 letterSpacing: 1,
               }}
             >
-              FLOWERS DO CATERING
+              LIKE FLOWERS FOOD STUDIO
             </span>
           </div>
           <h1
