@@ -840,12 +840,12 @@ export default function App() {
                         placeholder="예) 50"
                       />
                     </Field>
-                    <Field label="받는 분 정보">
+                    <Field label="답례 대상자 정보">
                       <input
                         style={inp}
                         value={form.peopleDetail}
                         onChange={(e) => set("peopleDetail", e.target.value)}
-                        placeholder="예) 가족, 친지 위주"
+                        placeholder="예) 가족, 지인, 성별, 연령대 등"
                       />
                     </Field>
                     <Field
@@ -1165,7 +1165,7 @@ export default function App() {
                     • 최소 주문 금액은 30만원입니다.
                   </p>
                   <p style={{ margin: "4px 0", fontSize: 12 }}>
-                    • 접수 후 카카오 채널로 답변 드립니다.
+                    • 접수 후 카카오 채팅으로 답변 드립니다.
                   </p>
                 </div>
                 {error && (
@@ -1276,7 +1276,7 @@ export default function App() {
             marginTop: 24,
           }}
         >
-          © 꽃들도 케이터링 · Flowers Do Catering
+          © 꽃들도 케이터링 · LIKE FLOWERS FOOD STUDIO
         </p>
       </div>
     </div>
